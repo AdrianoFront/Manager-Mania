@@ -8,32 +8,42 @@ body {
   background-color: #cccccc;
   font-family: helvetica, sans-serif;
 }
-
-.card {
+Header {
+  min-height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /*padding: 30px;
-  height: 100%;*/
   align-items: center;
 }
-
-/*.caixa {
+.caixa {
+  display: flex;
+  width: 40em;
+}
+.item-flex {
+  flex-basis: 50%;
+}
+.player {
+  width: 100%;
+  object-fit: cover;
+}
+.scout {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding: 30px;
   height: 100%;
+  justify-content: center;
   align-items: center;
-}*/
-
-.player {
-  max-width: 300px;
+  gap: 10px;
+}
+.modal {
+  max-width: 970px;
+  margin: 0 auto;
 }
 
-/*.scout {
-}*/
-
 .user-action {
-  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
