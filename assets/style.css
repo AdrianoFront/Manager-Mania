@@ -12,17 +12,27 @@ body {
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  /*padding: 30px;
+  height: 100%;*/
   align-items: center;
 }
+
+/*.caixa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  height: 100%;
+  align-items: center;
+}*/
 
 .player {
   max-width: 300px;
 }
 
-.scout {
-  list-style: none;
-}
+/*.scout {
+}*/
 
 .user-action {
   margin-top: 20px;
