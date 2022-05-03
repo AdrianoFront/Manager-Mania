@@ -31,9 +31,16 @@ Header {
   flex-direction: column;
   padding: 30px;
   height: 100%;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   gap: 10px;
+}
+ul {
+  list-style: none;
+  background-color: burlywood;
+  border-radius: 8px;
+  box-shadow: 5px 5px white;
+  padding: 15px;
 }
 .modal {
   max-width: 970px;
